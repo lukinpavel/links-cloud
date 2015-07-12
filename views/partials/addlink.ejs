@@ -1,0 +1,26 @@
+<form action="#" method="POST" class="addlink-form clear" novalidate>
+	<legend class="title-registr tt">Ein neuer Link hinzufügen</legend>
+
+		<label for="mySelect" class="cat">Kategorie aus der DB wählen:</label>
+		<select name="category" id="mySelect" size="">
+			<option selected value="test">Wählen Sie eine Kategorie</option>
+			<option value="html5">HTML5</option>
+			<option value="css3">CSS3</option>
+		</select>
+
+		<label for="myCategory" class="">Neue Kategorie:</label>
+		<input type="text" name="new-category" id="myCategory" size="25" class="clear" value="" placeholder="falls, wenn es nicht gibt ...">
+
+
+		<label for="myUrl" class="">URL:</label>
+		<input type="text" name="url" id="myUrl" size="25" class="clear" value="">
+
+		<label for="myLinkUrl" class="">Linksname:</label>
+		<input type="text" name="link-name" id="myLinkUrl" size="25" class="clear" value="">
+
+		<label for="myComment" class="">Kommentar:</label>
+		<textarea name="comment" cols="25" rows="3" id="myComment" placeholder="optional..."></textarea>
+
+		<input class="form-submit form-submit-link" type="submit" onclick="return false;" value="Senden">
+</form>
+

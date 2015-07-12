@@ -1,0 +1,35 @@
+
+<section class="overlay-container">
+	<div class="footer-box"></div>
+		<div class="overlay-content">
+		<input class="close-button" type="button" value="✕" />
+
+			<form action="#" method="POST" class="addlink-form clear" novalidate>
+				<legend class="title-registr tt">Добавление новой ссылки</legend>
+
+					<label for="mySelect" class="">Выбрать категорию из БД:</label>
+					<select name="category" id="mySelect" size="">
+						<option value="test">...</option>
+						<option value="html5">HTML5</option>
+						<option value="css3">CSS3</option>
+					</select>
+
+					<label for="myCategory" class="">Новая категория:</label>
+					<input type="text" name="new-category" id="myCategory" size="25" class="clear" placeholder="если ещё нет ...">
+			
+
+					<label for="myUrl" class="">URL:</label>
+					<input type="text" name="url" id="myUrl" size="25" class="clear">
+
+					<label for="myLinkUrl" class="">Название ссылки:</label>
+					<input type="text" name="link-name" id="myLinkUrl" size="25" class="clear">
+
+					<label for="myComment" class="">Коментарий:</label>
+					<textarea name="comment" cols="25" rows="3" id="myComment" placeholder="не обязательно..."></textarea>
+
+				<input class="form-submit" type="submit" onclick="return false;" value="Отправить">
+			</form>
+
+		</div>
+	<div class="footer-box-x"></div>
+</section>
